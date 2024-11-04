@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divison">
+
+        <div class="additional-info">
+            <h2>About This Webpage</h2>
+            <p>This webpage provides weather forecast information sourced from reliable APIs. It aims to deliver accurate and up-to-date weather data to users worldwide.</p>
+            <h2>How It Works</h2>
+            <p>The webpage fetches weather data using the user's specified location. It then processes the data and displays it in an easy-to-understand format.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Real-time weather updates</li>
+                <li>Search functionality for any location</li>
+                <li>Display of temperature, humidity, and wind speed</li>
+                <li>Responsive design for use on various devices</li>
+            </ul>
+            <h2>Data Source</h2>
+            <p>The weather data is retrieved from OpenWeatherMap, a trusted provider of weather APIs.</p>
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback regarding the webpage, please feel free to reach out to us at <a href="https://www.linkedin.com/in/polagani-ajay-715667317" target="_blank">LinkedIn</a>.</p>
+        </div>
+        
+    <div class="container">
+        <h1>Weather Forecast</h1>
+
+        <div class="header">
+            
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location"
+                class="input-box">
+                <button><i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+                </button>
+            </div>
+        </div>
+        <div class="weather-body">
+         <img src="images/default.png" alt="Weather Image" class="Weather-img">
+              
+         <div class="weather-box">
+            <p class="temperature">0<sup>°C</sup></p>
+            <p class="description">Enter your City Name</p>
+         </div>
+
+
+         <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humidity">0%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="Wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="Wind-speed">0Km/H</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+         </div>
+        </div>
+
+       
+    </div>
+
+    
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/39eba3e6fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
